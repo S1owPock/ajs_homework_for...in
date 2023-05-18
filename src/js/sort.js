@@ -22,7 +22,7 @@ export default function sortingByParam(obj, arr) {
 
   tempArr.sort((prev, next) => {
     if (prev.key < next.key) return -1;
-      return '';
+    return '';
   });
 
   return ordedObj.concat(tempArr);
